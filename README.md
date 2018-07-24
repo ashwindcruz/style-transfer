@@ -23,7 +23,7 @@ The following packages which are part of the Python standard library are used in
 * ```os```
 * ```shutil```
 
-Additionally, I utilise a pretrained VGG19 model checkpoint. You can download the compressed folder from [here](http://download.tensorflow.org/models/vgg_19_2016_08_28.tar.gz). Place the vgg_19.ckpt file in this folder or if you wish to place it elsewhere, ensure that the relevant paths are changed in the code.  
+Additionally, I utilise a pretrained VGG19 model checkpoint. You can download the compressed folder from [here](http://download.tensorflow.org/models/vgg_19_2016_08_28.tar.gz). After extraction, place the vgg_19.ckpt file in this folder or within the scripts you are using, change the variable ```checkpoint_path``` to point to the relevant location. 
 
 ### Installing
 You may install these packages yourself or use the [requirements.txt](requirements.txt) file like so: 
