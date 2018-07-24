@@ -13,7 +13,6 @@ These instructions will get you a copy of the project up and running on your loc
 This project was built on Python 3.5.2.
 
 The following packages must be installed:
-* ```cv2 (3.4.1)```
 * ```matplotlib (1.5.3)```
 * ```numpy (1.14.0)```
 * ```opencv-python (3.4.1+contrib)```
