@@ -12,7 +12,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 This project was built on Python 3.5.2.
 
-The following modules must be installed:
+The following packages must be installed:
 * ```cv2 (3.4.1)```
 * ```matplotlib (1.5.3)```
 * ```numpy (1.14.0)```
@@ -26,7 +26,7 @@ The following packages which are part of the Python standard library are used in
 Additionally, I utilise a pretrained VGG19 model checkpoint. You can download the compressed folder from [here](http://download.tensorflow.org/models/vgg_19_2016_08_28.tar.gz). Place the vgg_19.ckpt file in this folder or if you wish to place it elsewhere, ensure that the relevant paths are changed in the code.  
 
 ### Installing
-You may install these modules yourself or use the [requirements.txt](requirements.txt) file like so: 
+You may install these packages yourself or use the [requirements.txt](requirements.txt) file like so: 
 ```
 pip install -r requirements.txt
 ```
