@@ -32,6 +32,11 @@ pip install -r requirements.txt
 ```
 
 
+## Usage
+### Content Representation
+You can interact with the [notebook](content_reps.ipynb) which works through the ideas presented in Section 2.1: Content Representation of the paper. 
+Before using this notebook, download an image you want to experiment with and change the variable ```real_image_path``` to point to your chosen image.
+
 <!---## Deployment
 
 Add additional notes about how to deploy this on a live system
