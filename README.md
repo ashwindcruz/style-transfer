@@ -1,56 +1,31 @@
 # A Neural Algorithm of Artistic Style
 
-One Paragraph of project description goes here
+Implementing: Gatys, L.A., Ecker, A.S. and Bethge, M., 2016, June. [Image style transfer using convolutional neural networks](https://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Gatys_Image_Style_Transfer_CVPR_2016_paper.pdf). In Computer Vision and Pattern Recognition (CVPR), 2016 IEEE Conference on (pp. 2414-2423). IEEE.
+
+This project provides notebooks for running through different sections of the paper and scripts that can be used to 'style' images as described by the technique in the paper. 
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. 
 
 ### Prerequisites
 
-What things you need to install the software and how to install them
+This project was built on Python 3.5.2.
 
-```
-Give examples
-```
+The following modules are required:
+* ```cv2 (3.4.1)```
+* ```matplotlib (1.5.3)```
+* ```numpy (1.14.0)```
+* ```os```
+* ```shutil```
+* ```tensorflow-gpu (1.8.0)```
 
 ### Installing
-
-A step by step series of examples that tell you how to get a development env running
-
-Say what the step will be
-
+You may install these modules yourself or use the [requirements.txt](?) file like so: 
 ```
-Give the example
+pip install -r requirements.txt
 ```
 
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
-
-## Running the tests
-
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
 
 ## Deployment
 
