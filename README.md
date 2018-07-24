@@ -12,16 +12,21 @@ These instructions will get you a copy of the project up and running on your loc
 
 This project was built on Python 3.5.2.
 
-The following modules are required:
+The following packages must be installed:
 * ```cv2 (3.4.1)```
 * ```matplotlib (1.5.3)```
 * ```numpy (1.14.0)```
-* ```os```
-* ```shutil```
+* ```opencv-python (3.4.1+contrib)```
 * ```tensorflow-gpu (1.8.0)```
 
+The following packages which are part of the Python standard library are used in this project:
+* ```os```
+* ```shutil```
+
+Additionally, I utilise a pretrained VGG19 model checkpoint. You can download the compressed folder from [here](http://download.tensorflow.org/models/vgg_19_2016_08_28.tar.gz). Place the vgg_19.ckpt file in this folder or if you wish to place it elsewhere, ensure that the relevant paths are changed in the code.  
+
 ### Installing
-You may install these modules yourself or use the [requirements.txt](requirements.txt) file like so: 
+You may install these packages yourself or use the [requirements.txt](requirements.txt) file like so: 
 ```
 pip install -r requirements.txt
 ```
@@ -43,13 +48,13 @@ Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c6
 --->
 ## Versioning
 
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
+I use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/ashwindcruz/style-transfer/tags). 
 
 ## Authors
 
-* **Ashwin D'Cruz** - *Initial work* - [ashwindcruz](https://github.com/ashwindcruz)
+* **Ashwin D'Cruz** - [ashwindcruz](https://github.com/ashwindcruz)
 
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+<!---See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.--->
 
 ## License
 
