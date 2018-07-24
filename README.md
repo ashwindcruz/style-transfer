@@ -21,7 +21,7 @@ The following modules are required:
 * ```tensorflow-gpu (1.8.0)```
 
 ### Installing
-You may install these modules yourself or use the [requirements.txt](?) file like so: 
+You may install these modules yourself or use the [requirements.txt](https://github.com/ashwindcruz/style-transfer/blob/master/requirements.txt) file like so: 
 ```
 pip install -r requirements.txt
 ```
