@@ -13,7 +13,6 @@ These instructions will get you a copy of the project up and running on your loc
 This project was built on Python 3.5.2.
 
 The following packages must be installed:
-* ```cv2 (3.4.1)```
 * ```matplotlib (1.5.3)```
 * ```numpy (1.14.0)```
 * ```opencv-python (3.4.1+contrib)```
@@ -23,7 +22,7 @@ The following packages which are part of the Python standard library are used in
 * ```os```
 * ```shutil```
 
-Additionally, I utilise a pretrained VGG19 model checkpoint. You can download the compressed folder from [here](http://download.tensorflow.org/models/vgg_19_2016_08_28.tar.gz). Place the vgg_19.ckpt file in this folder or if you wish to place it elsewhere, ensure that the relevant paths are changed in the code.  
+Additionally, I utilise a pretrained VGG19 model checkpoint. You can download the compressed folder from [here](http://download.tensorflow.org/models/vgg_19_2016_08_28.tar.gz). After extraction, place the vgg_19.ckpt file in this folder or within the scripts you are using, change the variable ```checkpoint_path``` to point to the relevant location. 
 
 ### Installing
 You may install these packages yourself or use the [requirements.txt](requirements.txt) file like so: 
@@ -31,6 +30,11 @@ You may install these packages yourself or use the [requirements.txt](requiremen
 pip install -r requirements.txt
 ```
 
+
+## Usage
+### Content Representation
+You can interact with the [notebook](content_reps.ipynb) which works through the ideas presented in Section 2.1: Content Representation of the paper. 
+Before using this notebook, download an image you want to experiment with and change the variable ```real_image_path``` to point to your chosen image.
 
 <!---## Deployment
 
