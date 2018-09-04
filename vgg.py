@@ -275,25 +275,25 @@ def vgg_19(inputs,
       net = slim.max_pool2d(net, [2, 2], scope='pool5')
 
       # Use conv2d instead of fully_connected layers.
-      net = slim.conv2d(net, 4096, [7, 7], padding=fc_conv_padding, scope='fc6')
-      net = slim.dropout(net, dropout_keep_prob, is_training=is_training,
-                         scope='dropout6')
-      net = slim.conv2d(net, 4096, [1, 1], scope='fc7')
-      # Convert end_points_collection into a end_point dict.
+      # net = slim.conv2d(net, 4096, [7, 7], padding=fc_conv_padding, scope='fc6')
+      # net = slim.dropout(net, dropout_keep_prob, is_training=is_training,
+      #                    scope='dropout6')
+      # net = slim.conv2d(net, 4096, [1, 1], scope='fc7')
+      # # Convert end_points_collection into a end_point dict.
       end_points = slim.utils.convert_collection_to_dict(end_points_collection)
-      if global_pool:
-        net = tf.reduce_mean(net, [1, 2], keep_dims=True, name='global_pool')
-        end_points['global_pool'] = net
-      if num_classes:
-        net = slim.dropout(net, dropout_keep_prob, is_training=is_training,
-                           scope='dropout7')
-        net = slim.conv2d(net, num_classes, [1, 1],
-                          activation_fn=None,
-                          normalizer_fn=None,
-                          scope='fc8')
-        if spatial_squeeze:
-          net = tf.squeeze(net, [1, 2], name='fc8/squeezed')
-        end_points[sc.name + '/fc8'] = net
+      # if global_pool:
+      #  net = tf.reduce_mean(net, [1, 2], keep_dims=True, name='global_pool')
+      #  end_points['global_pool'] = net
+      # if num_classes:
+      #   net = slim.dropout(net, dropout_keep_prob, is_training=is_training,
+      #                      scope='dropout7')
+      #   net = slim.conv2d(net, num_classes, [1, 1],
+      #                     activation_fn=None,
+      #                     normalizer_fn=None,
+      #                     scope='fc8')
+      #   if spatial_squeeze:
+      #     net = tf.squeeze(net, [1, 2], name='fc8/squeezed')
+      #   end_points[sc.name + '/fc8'] = net
       return net, end_points
 vgg_19.default_image_size = 224
 
