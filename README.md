@@ -35,12 +35,16 @@ pip install -r requirements.txt
 
 ## Usage
 ### Content Representation
-You can interact with the [notebook](content_recs.ipynb) which works through the ideas presented in Section 2.1: Content Representation of the paper. 
-Before using this notebook, download an image you want to experiment with and change the variable ```real_image_path``` to point to your chosen image.
+You can interact with the [notebook](content_recs.ipynb) which works through the ideas presented in Section 2.1: Content Representation of the paper. You can also read this [post](https://ashwindcruz.github.io/blog/2018/07/30/content-reconstruction)  "Content Reconstruction") to better understand the notebook. 
+Before using this notebook, download an image you want to experiment with and change the variable ```real_image_path``` in the notebook to point to your chosen image.
 
 ### Style Representation
-You can interact with the [notebook](style_recs.ipynb) which works through the ideas presented in Section 2.2: Style Representation of the paper. 
-Before using this notebook, download an image you want to experiment with and change the variable ```real_image_path``` to point to your chosen image.
+You can interact with the [notebook](style_recs.ipynb) which works through the ideas presented in Section 2.2: Style Representation of the paper. You can also read this [post](https://ashwindcruz.github.io/blog/2018/09/08/style-reconstruction)  "Style Reconstruction") to better understand the notebook. 
+Before using this notebook, download an image you want to experiment with and change the variable ```real_image_path``` in the notebook to point to your chosen image.
+
+### Style Transfer
+You can interact with the [notebook](style_transfer.ipynb) which works through the ideas presented in Section 2.3: Style Transfer of the paper. You can also read this [post](https://ashwindcruz.github.io/blog/2018/09/26/style-transfer)  "Style Transfer") to better understand the notebook. 
+Before using this notebook, download a content and style image you want to experiment with and change the variables ```content_image_path``` and ```style_image_path``` respectively in the notebook to point to your images.
 
 <!---## Deployment
 
