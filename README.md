@@ -54,6 +54,7 @@ Ensure you have downloaded a content image and a style image and set the paths a
 Other parameters can also be tweaked in [config.py](config.py). 
 
 Once done, please run: 
+
 ```python train.py```
 <!---## Deployment
 
