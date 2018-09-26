@@ -12,10 +12,12 @@ These instructions will get you a copy of the project up and running on your loc
 
 This project was built on Python 3.5.2.
 
-The following packages must be installed:
+The following packages should be installed:
 * ```matplotlib (1.5.3)```
 * ```numpy (1.14.0)```
-* ```opencv-python (3.4.1+contrib)```
+* ```opencv-python (3.4.2.16)```
+* ```Pillow (3.3.1)```
+* ```tensorboard (1.8.0) (optional)```
 * ```tensorflow-gpu (1.8.0)```
 
 The following packages which are part of the Python standard library are used in this project:
@@ -33,7 +35,11 @@ pip install -r requirements.txt
 
 ## Usage
 ### Content Representation
-You can interact with the [notebook](content_reps.ipynb) which works through the ideas presented in Section 2.1: Content Representation of the paper. 
+You can interact with the [notebook](content_recs.ipynb) which works through the ideas presented in Section 2.1: Content Representation of the paper. 
+Before using this notebook, download an image you want to experiment with and change the variable ```real_image_path``` to point to your chosen image.
+
+### Style Representation
+You can interact with the [notebook](style_recs.ipynb) which works through the ideas presented in Section 2.2: Style Representation of the paper. 
 Before using this notebook, download an image you want to experiment with and change the variable ```real_image_path``` to point to your chosen image.
 
 <!---## Deployment
