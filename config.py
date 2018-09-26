@@ -1,6 +1,6 @@
 # Path to images we are extracting content and style from
-CONTENT_IMAGE_PATH = './perth_skyline.jpg'
-STYLE_IMAGE_PATH = './coastal_scene.jpg'
+CONTENT_IMAGE_PATH = './coastal_scene.jpg'
+STYLE_IMAGE_PATH = './starry_night.jpg'
 
 # Seed for initializing numpy and tf
 NP_SEED = 0
