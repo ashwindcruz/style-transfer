@@ -12,10 +12,12 @@ These instructions will get you a copy of the project up and running on your loc
 
 This project was built on Python 3.5.2.
 
-The following packages must be installed:
+The following packages should be installed:
 * ```matplotlib (1.5.3)```
 * ```numpy (1.14.0)```
-* ```opencv-python (3.4.1+contrib)```
+* ```opencv-python (3.4.2.16)```
+* ```Pillow (3.3.1)```
+* ```tensorboard (1.8.0) (optional)```
 * ```tensorflow-gpu (1.8.0)```
 
 The following packages which are part of the Python standard library are used in this project:
@@ -32,10 +34,28 @@ pip install -r requirements.txt
 
 
 ## Usage
-### Content Representation
-You can interact with the [notebook](content_reps.ipynb) which works through the ideas presented in Section 2.1: Content Representation of the paper. 
-Before using this notebook, download an image you want to experiment with and change the variable ```real_image_path``` to point to your chosen image.
 
+### Notebooks
+#### Content Representation
+You can interact with the [notebook](content_recs.ipynb) which works through the ideas presented in Section 2.1: Content Representation of the paper. You can also read this [post](https://ashwindcruz.github.io/blog/2018/07/30/content-reconstruction "Content Reconstruction") to better understand the notebook. 
+Before using this notebook, download an image you want to experiment with and change the variable ```real_image_path``` in the notebook to point to your chosen image.
+
+#### Style Representation
+You can interact with the [notebook](style_recs.ipynb) which works through the ideas presented in Section 2.2: Style Representation of the paper. You can also read this [post](https://ashwindcruz.github.io/blog/2018/09/08/style-reconstruction "Style Reconstruction") to better understand the notebook. 
+Before using this notebook, download an image you want to experiment with and change the variable ```real_image_path``` in the notebook to point to your chosen image.
+
+#### Style Transfer
+You can interact with the [notebook](style_transfer.ipynb) which works through the ideas presented in Section 2.3: Style Transfer of the paper. You can also read this [post](https://ashwindcruz.github.io/blog/2018/09/26/style-transfer "Style Transfer") to better understand the notebook. 
+Before using this notebook, download a content and style image you want to experiment with and change the variables ```content_image_path``` and ```style_image_path``` respectively in the notebook to point to your images.
+
+### Scripts
+If you prefer, you can run Python scripts directly. 
+Ensure you have downloaded a content image and a style image and set the paths appropriately in [config.py](config.py).
+Other parameters can also be tweaked in [config.py](config.py). 
+
+Once done, please run: 
+
+```python train.py```
 <!---## Deployment
 
 Add additional notes about how to deploy this on a live system
