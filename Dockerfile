@@ -1,0 +1,1 @@
+RUN pip3 install -r requirements_activator.txt
