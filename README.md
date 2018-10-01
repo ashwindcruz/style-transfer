@@ -15,10 +15,9 @@ This project was built on Python 3.5.2.
 The following packages should be installed:
 * ```matplotlib (1.5.3)```
 * ```numpy (1.14.0)```
-* ```opencv-python (3.4.2.16)```
+* ```opencv-python (3.4.3.18)```
 * ```Pillow (3.3.1)```
-* ```tensorboard (1.8.0) (optional)```
-* ```tensorflow-gpu (1.8.0)```
+* ```tensorflow-gpu (1.4.0)```
 
 The following packages which are part of the Python standard library are used in this project:
 * ```os```
