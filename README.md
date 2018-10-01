@@ -15,10 +15,9 @@ This project was built on Python 3.5.2.
 The following packages should be installed:
 * ```matplotlib (1.5.3)```
 * ```numpy (1.14.0)```
-* ```opencv-python (3.4.2.16)```
+* ```opencv-python (3.4.3.18)```
 * ```Pillow (3.3.1)```
-* ```tensorboard (1.8.0) (optional)```
-* ```tensorflow-gpu (1.8.0)```
+* ```tensorflow-gpu (1.4.0)```
 
 The following packages which are part of the Python standard library are used in this project:
 * ```os```
@@ -32,6 +31,16 @@ You may install these packages yourself or use the [requirements.txt](requiremen
 pip install -r requirements.txt
 ```
 
+### Docker
+Alternatively, I've supplied a [Dockerfile](Dockerfile) which you can use to create a container for running all this code:
+```
+nvidia-docker build .
+```
+
+Note that I've used ```nvidia-docker``` instead of ```docker```. This is for better GPU support. 
+To learn more, please refer to these links: 
+* [Nvidia Runtime Container for Docker](https://github.com/NVIDIA/nvidia-docker)
+* [Enabling GPUs in the Container Runtime Ecosystem](https://devblogs.nvidia.com/gpu-containers-runtime/)
 
 ## Usage
 
