@@ -37,6 +37,11 @@ Alternatively, I've supplied a [Dockerfile](Dockerfile) which you can use to cre
 nvidia-docker build .
 ```
 
+Note that I've used ```nvidia-docker``` instead of ```docker```. This is for better GPU support. 
+To learn more, please refer to these links: 
+* [Nvidia Runtime Container for Docker](https://github.com/NVIDIA/nvidia-docker)
+* [Enabling GPUs in the Container Runtime Ecosystem](https://devblogs.nvidia.com/gpu-containers-runtime/)
+
 ## Usage
 
 ### Notebooks
