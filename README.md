@@ -31,6 +31,11 @@ You may install these packages yourself or use the [requirements.txt](requiremen
 pip install -r requirements.txt
 ```
 
+### Docker
+Alternatively, I've supplied a [Dockerfile](Dockerfile) which you can use to create a container for running all this code:
+```
+nvidia-docker build .
+```
 
 ## Usage
 
