@@ -1,17 +1,11 @@
 
-# coding: utf-8
+"""
+This script implements style transfer.
 
-# """
-# 
-# This notebook runs through Section 2.3: Style Transfer. 
-# The images generated are similar to those in Figure 3. 
-# 
-# The Directory Paths block should be edited to suit local directory structure. 
-# The Chosen Parameters block can be changed to try out different experimental settings. 
-# 
-# """
-
-# In[ ]:
+Gatys, L.A., Ecker, A.S. and Bethge, M., 2016. 
+Image style transfer using convolutional neural networks. 
+In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (pp. 2414-2423).
+"""
 
 import cv2
 import matplotlib.pyplot as plt
@@ -30,7 +24,6 @@ import vgg
 os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2' 
 
 # Directories setup
-
 if cfg.RESET_SAVES is True:
     # Ensure tensorboard is not running when you try to delete
     # this directory
